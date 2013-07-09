@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Street Art Gangs</title>
+
+		<meta name="description" content="Web layer for displaying online players">
+		<meta name="author" content="NIMO Crew">
+
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+	 	<link rel="stylesheet" href="css/theme/typo.css">
+		<link rel="stylesheet" href="css/theme/style.css" id="theme">
+		<link rel="stylesheet" href="css/animate.css">
+		
+		
+	</head>
+
+	<body>
+		
+
+		<div class="reveal">
+
+            
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+			
+													
+					<!-- 2. slide -->
+	                <section id="online">
+	                        
+	                    <div id="foo"></div>
+	
+	                        <h2 class="pretitle"><span class="tweak">Who </span><span class="tweak3">'s</span></h2>
+	                        
+	                        <h2><span class="tweak">O</span>n<span class="tweak2">lin</span>e</h2>
+	
+	                        <ul id="online-list">
+	                            <li>Foxy <span class="time">2h</span></li>
+	                            <li>Roxy <span class="time">10min</span></li>
+	                            <li>Paddy <span class="time">+4h</span></li>
+	                            <li>Timmy <span class="time">+1h</span></li>
+	                            <li>Bobby <span class="time">45min</span></li>
+	                            <li>Jimmy <span class="time">2min</span></li>
+	                            <li>Holly <span class="time">16min</span></li>
+	                            <li>Missy <span class="time">+2h</span></li>
+	                            <li>Vicky <span class="time">+5h</span></li>
+	                            <li>Polly <span class="time">59min</span></li>
+	                        </ul>
+	           
+	                </section>
+	                
+	             				
+			</div><!-- END .slides -->
+
+		</div><!-- END .reveal -->
+		
+	
+		<!-- JS files -->
+        <script src="js/jquery-1.10.1.min.js"></script>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		
+<!--
+		<script>
+			$(document).ready(function() {
+			   setInterval("location.reload();", 60000);
+			});
+        </script>
+-->
+
+
+		<script>
+            $('ul#online-list li').addClass('animated pulse');
+        </script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				    // Apply a 3D roll to links on hover
+                rollingLinks: false,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'concave', // default/cube/page/concave/zoom/linear/fade/none
+
+				
+    			// Transition speed
+   		 		transitionSpeed: 'fast', // default/fast/slow
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }
+
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
