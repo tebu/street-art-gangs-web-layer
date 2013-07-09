@@ -108,7 +108,7 @@ a.circle.online {
     opacity: 0.6;
     padding: 80px 50px 110px 100px;
     position: absolute;
-    right: 0;
+    left: 600px;
     text-decoration: none;
     text-shadow: 0 10px 0 rgba(0, 0, 0, 0.6);
     top: -50px;
@@ -240,6 +240,8 @@ a.circle.tips:hover {
     color: rgba(164, 211, 255, 0.7);
 }
 
+*/
+
 #floor {
  	background: url("../../img/floor_alt.jpg") repeat-x;
  	background: radial-gradient(farthest-corner at center center , rgba(98, 232, 255, 0.6) 0%, rgba(0, 33, 92, 0.3) 60%, rgba(0, 0, 0, 0.95) 95%), url("../../img/floor_alt.jpg") repeat-x;
@@ -254,7 +256,7 @@ a.circle.tips:hover {
     animation-duration: .1s;
     animation-iteration-count: 5;
 }
-*/
+
 
 
 
